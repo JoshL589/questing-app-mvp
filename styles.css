@@ -24,7 +24,7 @@ h1 {
     justify-content: center;
     background-color: #559FFF;
     width: 500px;
-    height: 500px;
+    height: 700px;
     border-radius: 25px;
 }
 
@@ -44,20 +44,44 @@ img{
     gap: 10px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 }
 
-.start-button{
+button{
     background-color: white;
     border-radius: 20px;
     font-family: "Inter", serif;
     font-weight: 500;
     font-size: 20px;
     border: none;
+    cursor: pointer;
     color: #427ABA;
     height: 50px;
     width: 250px;
 }
 
+
+label {
+    margin-bottom: 10px;
+}
+
 #qname {
-    width: 100%;
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: "Inter", serif;
+}
+
+#qdescription {
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: "Inter", serif;
 }
